@@ -4,9 +4,10 @@ This repository showcases the end-to-end data engineering and analytics pipeline
 
 ### 📁 Folder Structure
 
-* **`raw/`, `bronze/`, `silver/`, `gold/`**
+* **`master_excel/`,`raw/`, `bronze/`, `silver/`, `gold/`**
   Contains PySpark notebooks used for data transformations across each Medallion Architecture layer.
-
+  
+  * `Master_Excel`: Excel file that contains the hospital data links that ADF consumes 
   * `raw`: initial ingestion logic
   * `bronze`: cleaned and normalized data
   * `silver`: enriched and structured data
